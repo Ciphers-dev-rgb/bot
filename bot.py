@@ -611,7 +611,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "📞 *HUBUNGI CUSTOMER SERVICE*\n"
             "━━━━━━━━━━━━━━━━━━━━━━\n"
             "Jika Anda membutuhkan bantuan, silakan hubungi admin kami melalui tautan berikut:\n\n"
-            "👉 [Klik di sini untuk Chat Admin](https://t.me/admin_toko_anda)"
+            "👉 [Klik di sini untuk Chat Admin](https://t.me/niskaladigital)"
         )
         await send_banner_message(update.message, pesan, parse_mode='Markdown')
 
